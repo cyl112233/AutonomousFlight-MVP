@@ -1,0 +1,18 @@
+##带*号参数项必填
+#文件转换
+DataFileAddress : /home/bift/Y_L/fei/Seg_training/Seg_training/data #*数据集地址 #数据集地址下需有两个目录 /images /json
+ClassName : ["background","feiji","weiliu"] #*类别名 0号元素默认为背景
+ClassColor : [[0,0,0],[168,0,0],[0,0,168]] #*类别RGB值 0号元素默认为背景
+DataUpdates : #True   #bool值 此参数用于使用新的数据集时清除旧的数据
+DateLoader :   #True  #bool值 此参数用于加载数据，只需要运行一次
+DataSegmentation : [0.7,0.2,0.1]   #*数据划分 训练，测试，验证
+SaveFileName : "air" #保存的文件名文件名保存地址为./SaveDate/TextDate下
+
+#超参数设置
+LearningRate : 1e-3   #*
+Epoch : 300   #*训练轮数
+SaveEpoch : 25 #*训练结果保存轮数
+ImageSize : [224,224] #图片大小
+BatchSize : 4 #批次大小
+
+
