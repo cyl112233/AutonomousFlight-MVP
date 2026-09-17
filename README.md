@@ -1,4 +1,4 @@
-# MVP: Mamba Visual Perceptron for Autonomous Flight Semantic Segmentation
+# MVP: A deep learning model for visual collaborative perception in aircraft autonomous driving
 
 **Real-time Semantic Segmentation for Intelligent Autonomous Aircraft Systems**
 
@@ -146,31 +146,10 @@ We provide comprehensive visualization tools:
 - **3D Attention Weight Projection**: Multi-dimensional attention visualization
 - **t-SNE Feature Distribution**: Learned feature embedding analysis
 
----
-
-## 📝 Citation
-
-If you find this work useful for your research, please cite:
-
-```bibtex
-@article{mvp2026,
-  title={Mamba Visual Perceptron: A Real-time Semantic Segmentation Framework for Autonomous Flight Perception},
-  author={Your Name},
-  journal={arXiv preprint},
-  year={2026}
-}
-```
 
 ---
 
-## 📧 Contact
 
-For questions, issues, or collaboration inquiries, please open an issue or contact:
-
-- Email: your.email@example.com
-- GitHub Issues: [Open an Issue](https://github.com/yourusername/MVP/issues)
-
----
 
 ## 📜 License
 
